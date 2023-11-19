@@ -1,0 +1,56 @@
+#contact {
+    padding: 100px 0;
+    padding-top: 175px;
+    .contact_head {
+        text-align: center;
+        padding-bottom: 50px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 48px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+    .contact_main {
+        background-color: #F4F6FC;
+        padding: 50px 0;
+    }
+    .contact_main input{
+        background-color: #F4F6FC;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .contact_main label{
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .con_text input{
+        padding: 50px;
+        margin-bottom: 40px !important;
+    }
+    .con_text a{
+        font-weight: 600;
+        font-size: 18px;
+        padding: 17px 50px;
+        background-color: #282938    ;
+        border-radius: 50px;
+        color: white;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        transition: all linear 0.5s;
+        -webkit-transition: all linear 0.5s;
+        -moz-transition: all linear 0.5s;
+        -ms-transition: all linear 0.5s;
+        -o-transition: all linear 0.5s;
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+}
+}

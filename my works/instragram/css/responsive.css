@@ -1,0 +1,263 @@
+@media (max-width: 575.98px) { 
+    .banner_pos_img_two img {
+        display: none;
+    }
+    .banner_text h1 {
+        font-size: 50px !important;
+        line-height: 64px !important;
+    }
+    .banner_img_main {
+        padding-left: 0px !important;
+    }
+    .banner_img_icon i {
+        left: 16px !important;
+        top: 26px !important;
+    }
+    .banner_tex {
+        width: 100% !important;
+    }
+    .banner_flex_icon {
+        display: none;
+    }
+    .logo_main {
+        text-align: center;
+    }
+    #logo {
+        padding: 50px 0 !important;
+    }
+    .work_main {
+        padding: 51px 26px 81px 26px !important;
+    }
+    .vidoe_icon {
+        display: none;
+    }
+    .work_shabe img {
+        right: 0px !important;
+    }
+    #video {
+        padding-bottom: 75px !important;
+    }
+    #work_two {
+        padding: 50px 0 !important;
+    }
+    .pricing_main a {
+        margin-left: -12px !important;
+    }
+    .pricing_main {
+        padding: 65px 47px !important;
+    }
+    .rating_shabe {
+        display: none;
+    }
+    .rating_icons {
+        padding: 35px 23px !important;
+    }
+    .rating_img span {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        font-size: 19px !important;
+    }
+    .rating_img i {
+        display: none;
+    }
+    .lasticon {
+        padding-left: 109px !important;
+    }
+    footer {
+        padding: 50px 0px !important;
+    }
+    .footer_main h2 {
+        padding: 12px 0 20px 0 !important;
+    }
+    .footer_main img {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+ }
+@media (max-width: 767.98px) { 
+    /* banner part start */
+    #banner {
+    padding-top: 75px !important;
+        padding-bottom: 20px !important;
+    }
+
+
+  
+    .banner_pos_img_one img {
+        top: 46px !important;
+        right: -27px !important
+    }
+    .banner_pos_img_two img {
+        top: -8px !important;
+        right: 159px !important;
+    }
+    .banner_tex {
+        width: 437px;
+        height: 222px;
+        left: -4px !important;
+        top: 332px !important;
+    }
+    /* banner part end */
+    /* logo part start */
+    .logo_main h3 {
+        font-size: 27px !important;
+    }
+    .logo_main span {
+        font-weight: 700;
+        font-size: 31px !important;
+    }
+    /* logo part end */
+    /* work part start */
+    #work {
+        padding: 50px 0 !important;
+    }
+    .work_main {
+        margin-bottom: 20px;
+    }
+    
+    /* work part end */
+    /* pricing part start */
+    #pricing {
+        padding: 50px 0 !important;
+    }
+    .pricing_main {
+        margin-bottom: 20px;
+    }
+
+    /* pricing part end */
+
+    .slick-slide img {
+        display: inline-block;
+    }
+
+    #know {
+        padding: 50px 0 !important;
+    }
+    .foter_two {
+        padding-left: 0px !important;
+    }
+    .from_tag input {
+        margin-bottom: 19px !important;
+    }
+    .from_tag a {
+
+        margin-left: 3px !important;
+    }
+    footer {
+        padding: 75px 0px;
+        background: #F4F4F4;
+    }
+    .banner_img_main img {
+        padding-top: 60px;
+        max-width: 100%;
+    }
+    .nav_icon {
+        display: none;
+    }
+    .nav_main {
+        text-align: center;
+        background-color: #F4F4F4;
+    }
+    .nav_manu li {
+        padding-right: 0px !important;
+    }
+    .sing_in a {
+        margin-left: 0px !important;
+    }
+    .sing_in {
+        padding-top: 10px;
+    }
+    .work_main {
+        margin-left: 0px !important;
+    }
+
+}
+@media (min-width: 576px)  and (max-width: 767.98px){ 
+    .banner_text h1 {
+        font-size: 57px !important;
+        text-align: center;
+    }
+    .banner_img_main {
+        padding-left: 147px !important;
+    }
+    .banner_img_icon i {
+        left: 175px !important;
+    }
+    .banner_img {
+        padding-top: 40px;
+    }
+    .banner_img_icon i {
+        position: absolute;
+        top: -13px !important;
+        left: 15px !important;
+        z-index: 111 !important;
+    }
+    .vidoe_icon img {
+        position: absolute;
+        top: 48px !important;
+        left: 31% !important;
+    }
+ }
+@media (min-width: 768px)  and (max-width: 991.98px){ 
+    .banner_tex {
+        left: -17px !important;
+        top: 341px !important;
+    }
+    .banner_pos_img_two img {
+        right: -75px !important;
+    }
+    .banner_pos_img_one img {
+        right: -44px !important;
+    }
+    #banner {
+        padding-bottom: 70px !important;
+    }
+    .logo_main h3 {
+        font-size: 38px !important;
+    }
+    .logo_main {
+        text-align: center;
+    }
+    .work_main {
+        text-align: center;
+        margin-bottom: 20px
+    } 
+    .vidoe_icon img {
+        top: 95px !important;
+        left: 34% !important;
+    }
+    .pricing_main {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .from_tag a {
+        margin-left: 0px !important;
+    }
+    .from_tag input {
+        margin-bottom: 20px;
+    }
+    .nav_icon {
+        display: none;
+    }
+    .nav_main {
+        text-align: center;
+        background-color: #F4F4F4;
+    }
+    .nav_main ul li{
+        padding-bottom: 10px;
+    }
+    .nav_main i{
+        font-size: 35px;
+    }
+ }
+ @media (min-width: 992px) {
+    .sing_in {
+        display: none;
+    }
+ }
+@media (min-width: 992px)  and (max-width: 1199.98px){ 
+    
+ }
+@media (min-width: 1200px)  and (max-width: 1399.98px){ 
+    
+ }

@@ -1,0 +1,210 @@
+#stream{
+padding-bottom: 83px;
+}
+.stream_head h2 {
+  margin-top: 105px;
+  color: white;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  position: relative;
+}
+
+.stream_head h2::after{
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 0;
+  right: 35%;
+  bottom: 6%;
+  background-color: #FF4655;
+  animation: allborder 2s linear infinite;
+  -webkit-animation: allborder 2s linear infinite;
+}
+
+.stream_slider{
+  margin-top: 55px;
+  position: relative;
+  mix-blend-mode: luminosity;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  overflow: hidden;
+  // margin-left: 10px;
+  // margin-right: 10px;
+}
+.stream_slider:hover{
+  mix-blend-mode: normal;
+}
+
+.stream_slider img{
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.stream_slider:hover img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.stream_ol_text{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  // background-color: #262625  ;
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.st_ol_item{
+  width: 100%;
+}
+
+.stream_ol_text .venobox_btn{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stream_ol_text .venobox_btn a{
+  height: 70px;
+  width: 70px;
+  // background-color: yellow;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;;
+}
+
+.sot_title h2{
+  font-size: 22px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+.sot_bottom_text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sot_bottom_text p{
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-transform: capitalize;
+  padding-top: 2px;
+}
+.sot_bottom_text span{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+}
+
+.sot_bottom_text span::after{
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  bottom: 25%;
+  left: -40%;
+  background-color: #FF4655;
+}
+
+// .stol_bg{
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   background-color: #262625;
+// }
+
+.match_head h2{
+  margin-top: 54px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+
+.match_details{
+  margin-top: 44px;
+}
+
+.md_left{
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+.md_left img{
+  padding: 5px 0;
+}
+.md_left p{
+  color: white;
+  padding-right: 55px;
+  font-size: 32px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+.md_mid p{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.md_right{
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+.md_right img{
+  padding: 5px 0;
+}
+.md_right p{
+  color: white;
+  padding-left: 55px;
+  font-size: 32px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+.match_details.for_padding{
+  margin-top: 52px;
+}

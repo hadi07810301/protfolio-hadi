@@ -1,0 +1,190 @@
+// X-Small devices (portrait phones, less than 576px)
+@media (min-width: 0px) and (max-width: 575.98px) {
+    #banner {
+        .banner_text {
+            h5 {
+                margin-top: 30px;
+                margin-right: 30px;
+
+            }
+
+        }
+    }
+
+    #banner .banner_text a {
+        background-color: #FCD980;
+        padding: 16px 25px;
+        border: 2px solid white;
+        color: #1B1C2B;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-right: 70px;
+        transition: all linear 0.5s;
+    }
+
+    #bulding .from_main a {
+        padding: 16px 30px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+
+    #project .project_img2 .project_img_bg1 h4 {
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        padding-top: 94px;
+        padding-bottom: 25px;
+    }
+
+    #project .project_img .project_bg h3 {
+        padding-top: 50px;
+        /* top: 300px; */
+        font-weight: 600;
+        font-size: 17px;
+        color: white;
+    }
+
+    #project .project_img .project_bg p {
+        font-weight: 500;
+        font-size: 8px;
+        color: white;
+        padding: 9px 0;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    #banner {
+        .banner_text {
+            text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    #work {
+        .work_text {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+    }
+
+    #fature {
+        .fature_main {
+            margin-top: 30px;
+        }
+    }
+
+    #bulding .bulding_img {
+        padding: 110px 90px;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bulding .bulding_img h4 {
+        font-weight: 600;
+        font-size: 45px;
+        color: white;
+    }
+
+    #bulding .from_main a {
+        padding: 16px 60px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+
+    #bulding .from_main h5 {
+        display: none;
+    }
+
+    #blog_page h2 {
+        color: black;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 56px;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #project .project_img2 {
+        overflow: hidden;
+        position: relative;
+        margin-top: 60px;
+        transition: all linear 0.5s;
+        text-align: center;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #project .project_img .project_bg h3 {
+        padding-top: 133px;
+        top: 300px;
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner {
+        img {
+            display: none;
+        }
+    }
+
+    #fature .fature_main .fature_iteam h5 {
+        font-weight: 500;
+        font-size: 18px;
+        color: #282938;
+        padding-top: 22px;
+        padding-bottom: 12px;
+    }
+
+    #project .project_img2 {
+        overflow: hidden;
+        position: relative;
+        margin-top: 60px;
+        transition: all linear 0.5s;
+        text-align: center;
+    }
+
+}
+
+// Large devices (desktops, less than 1200px)
+
+// X-Large devices (large desktops, less than 1400px)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #bulding .from_main a {
+        padding: 16px 20px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+
+    #fature .fature_main .fature_iteam h5 {
+        font-weight: 500;
+        font-size: 23px;
+        color: #282938;
+        padding-top: 22px;
+        padding-bottom: 12px;
+    }
+
+    #bulding .bulding_img {
+        padding: 25px 65px 277px 150px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

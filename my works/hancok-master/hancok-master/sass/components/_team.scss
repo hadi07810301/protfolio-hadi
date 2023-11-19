@@ -1,0 +1,200 @@
+#team {
+  background-color: #191919;
+  padding-bottom: 80px;
+}
+
+.team_head h2 {
+  margin-top: 85px;
+  color: white;
+  font-size: 38px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  position: relative;
+  text-align: right;
+  // letter-spacing: 3px;
+}
+
+.team_head h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 0;
+  left: 31%;
+  bottom: 6%;
+  background-color: #FF4655;
+  animation: allborder 2s linear infinite;
+  -webkit-animation: allborder 2s linear infinite;
+}
+
+.team_item {
+  margin-top: 42px;
+  mix-blend-mode: luminosity;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.team_item:hover{
+  mix-blend-mode: normal;
+}
+
+.team_img img{
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.team_item:hover .team_img img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.team_ol {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 92px;
+  width: 100%;
+  background: rgba(37, 36, 36, 0.38);
+  // background-color: cornflowerblue;
+  padding-left: 28px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.team_item:hover .team_ol{
+  height: 205px;
+}
+
+
+
+.tol_top {
+  color: white;
+}
+
+.tol_top h2 {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 30;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+
+.team_item:hover .tol_top h2{
+  padding-bottom: 0;
+}
+
+.tol_top p {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.tol_bottom {
+  padding-top: 12px;
+}
+
+.tolb_btn a {
+  padding: 10px 20px;
+  background-color: #FF4655;
+  color: white;
+  border: 1px solid #FF4655;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.tolb_btn a:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: white;
+}
+.tolb_btn a::after {
+  position: absolute;
+  content: '';
+  height: 0%;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  border-radius: 50% 50% 0 0;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+}
+
+.tolb_btn a:hover::after {
+  height: 180%;
+}
+
+
+.tolb_icon{
+  padding-right: 52px;
+}
+
+.tolb_icon i {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  background-color: #FF4655;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  font-size: 20px;
+  color: white;
+  margin-left: 14px;
+  border: 1px solid #FF4655;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.tolb_icon i:hover {
+  background-color: white;
+  color: #000;
+  border-color: white;
+  transform: scale(1.1) translateY(-5px);
+  -webkit-transform: scale(1.1) translateY(-5px);
+  -moz-transform: scale(1.1) translateY(-5px);
+  -ms-transform: scale(1.1) translateY(-5px);
+  -o-transform: scale(1.1) translateY(-5px);
+}

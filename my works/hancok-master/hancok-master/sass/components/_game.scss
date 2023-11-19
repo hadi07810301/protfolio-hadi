@@ -1,0 +1,147 @@
+#game {
+  background-color: #191919;
+  padding-bottom: 85px;
+}
+
+.game_head h2 {
+  margin-top: 105px;
+  color: white;
+  font-size: 38px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  position: relative;
+  text-align: right;
+}
+
+// .game_head h2::before{
+//   position: absolute;
+//   content: attr(data-fill-text) ;
+//   top: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 100%;
+//   color: #FF4655;
+//   transition: all linear 0.2s;
+//   -webkit-transition: all linear 0.2s;
+//   -moz-transition: all linear 0.2s;
+//   -ms-transition: all linear 0.2s;
+//   -o-transition: all linear 0.2s;
+//   overflow: hidden;
+//   animation: hbefore 5s linear infinite;
+//   -webkit-animation: hbefore 5s linear infinite;
+// }
+// @keyframes hbefore {
+//   0%{
+//     width: 0;
+//   }
+//   50%{
+//     width: 100%;
+//   }
+//   100%{
+//     width: 0;
+//   }
+// }
+
+.game_head h2::after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: 6%;
+  background-color: #FF4655;
+  animation: allborder 2s linear infinite;
+  -webkit-animation: allborder 2s linear infinite;
+}
+
+.game_left {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  // background-color: blue;
+}
+
+.game_left::after {
+  position: absolute;
+  content: '';
+  height: 75%;
+  width: 90%;
+  background-color: #FF4655;
+  bottom: 0;
+  left: 50%;
+  z-index: -1;
+  transform: skewX(-15deg) translateX(-50%);
+  -webkit-transform: skewX(-15deg) translateX(-50%);
+  -moz-transform: skewX(-15deg) translateX(-50%);
+  -ms-transform: skewX(-15deg) translateX(-50%);
+  -o-transform: skewX(-15deg) translateX(-50%);
+  animation: gamebe 2s linear infinite;
+  -webkit-animation: gamebe 2s linear infinite;
+}
+
+@keyframes gamebe {
+  0% {
+    left: 50%;
+  }
+
+  25% {
+    left: 48%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  75% {
+    left: 52%;
+  }
+
+  100% {
+    left: 50%;
+  }
+
+}
+
+.game_slider_main {
+  position: relative;
+}
+
+.game_slider_main .gmn {
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  height: 40px;
+  width: 40px;
+  //background-color: yellow;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.game_slider_main .gmp {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  height: 40px;
+  width: 40px;
+  //background-color: yellow;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 20;
+}

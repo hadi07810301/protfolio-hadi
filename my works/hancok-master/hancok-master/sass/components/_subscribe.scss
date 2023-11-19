@@ -1,0 +1,84 @@
+#subscribe{
+  background: linear-gradient(180deg, rgba(18,18,18,1) 50%, rgba(25,25,25,1) 50%);
+}
+
+.subscribe {
+  background-color: #FF4655;
+  
+}
+
+.subs_left p {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subs_right{
+  position: relative;
+}
+
+.subs_right input {
+  width: 409px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.subs_right label{
+  padding-left: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+.form-control:focus {
+  color: black;
+  background-color: #fff;
+  border-color: #666666;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+  padding-left: 22px;
+}
+
+.subs_right a {
+  position: absolute;
+  right: 0px;
+  bottom: -2%;
+  padding: 18px 32px;
+  background-color: rgb(25, 25, 25);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 38px;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  -o-border-radius: 38px;
+  border: 1px solid #191919;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.subs_right a:hover{
+  background-color: white;
+  color: #191919;
+}

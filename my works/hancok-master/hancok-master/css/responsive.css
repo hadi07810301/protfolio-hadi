@@ -1,0 +1,484 @@
+@media (max-width:767.98px) {
+
+
+  .head_jc {
+    justify-content: center !important;
+  }
+
+  /* navbar part start */
+  .menu {
+    background-color: black;
+  }
+
+  .menu button i {
+    color: #FF4655;
+    font-size: 30px;
+    border: none;
+  }
+
+  .menu ul {
+    padding-left: 0;
+  }
+
+  .menu ul li a {
+    padding: 10px 0 !important;
+  }
+
+  .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .navbar_icons {
+    margin: 10px 0;
+  }
+
+  /* navbar part end */
+
+
+  /* banner part start */
+  .banner_text {
+    text-align: center;
+  }
+
+  .banner_text h1::after {
+    opacity: 0;
+  }
+
+  .bnr_icon {
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  /* banner part end */
+
+  /* community start */
+  .main_counter {
+    margin-bottom: 20px;
+  }
+
+  /* community end */
+  .game_left {
+    margin-bottom: 40px;
+  }
+
+  /* .game_left::after {
+    transform: skewX(0) translateX(-50%);
+    -webkit-transform: skewX(0) translateX(-50%);
+    -moz-transform: skewX(0) translateX(-50%);
+    -ms-transform: skewX(0) translateX(-50%);
+    -o-transform: skewX(0) translateX(-50%);
+    animation: none;
+  } */
+
+  /* .stream_ol_text .venobox_btn {
+    margin-top: 20px;
+  } */
+
+  .sot_title h2 {
+    padding-top: 20px;
+  }
+
+
+  .md_left,
+  .md_right {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .md_left img {
+    width: 40%;
+    padding-left: 5px;
+  }
+
+  .md_left p {
+    padding-right: 15px;
+    font-size: 15px;
+  }
+
+
+  .md_mid p {
+    font-size: 20px;
+  }
+
+  .md_right img {
+    width: 40%;
+    padding-right: 5px;
+  }
+
+  .md_right p {
+    padding-left: 15px;
+    font-size: 15px;
+  }
+
+
+  .catalog_text {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+
+  .slider ul {
+    left: 40% !important;
+  }
+
+  .faq_item {
+    padding-right: 0;
+  }
+
+  .faq_item.for_Padding {
+    padding-left: 0;
+  }
+
+  .subs_left {
+    text-align: center;
+  }
+
+  .subs_right {
+    margin: 0 auto 20px auto;
+  }
+
+
+  .footer_one {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+
+  .f_list {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .f_gal {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .f_gal h2 {
+    padding-bottom: 40px;
+  }
+
+  .commu_head,
+  .game_head,
+  .stream_head,
+  .sale_head,
+  .acce_head,
+  .team_head,
+  .faq_head {
+    text-align: center !important;
+  }
+
+  .commu_head h2::after,
+  .game_head h2::after,
+  .stream_head h2::after,
+  .sale_head h2::after,
+  .acce_head h2::after,
+  .team_head h2::after,
+  .faq_head h2::after {
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:420px) {
+
+  .slider ul {
+    left: 57% !important;
+}
+  .faq_item {
+    border-right: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width: 991.98px) {
+
+  /* navbar part start */
+  .menu {
+    background-color: black;
+  }
+
+  .menu button i {
+    color: #FF4655;
+    font-size: 30px;
+    border: none;
+  }
+
+  .menu ul {
+    padding-left: 0;
+  }
+
+  .menu ul li a {
+    padding: 10px 0 !important;
+  }
+
+  .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .navbar_icons {
+    margin: 10px 0;
+  }
+
+  /* navbar part end */
+  /* banner part start */
+  .banner_text {
+    text-align: center;
+  }
+
+  .banner_text h1::after {
+    opacity: 0;
+  }
+
+  .bnr_icon {
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  /* banner part end */
+
+  /* community start */
+  .commu_head h2::after {
+    opacity: 0;
+  }
+
+  .main_counter {
+    margin-bottom: 20px;
+  }
+
+  /* community end */
+
+  .game_head h2::after {
+    opacity: 0;
+  }
+
+  .game_left {
+    margin-bottom: 40px;
+  }
+
+  .game_left::after {
+    transform: skewX(0) translateX(-50%);
+    -webkit-transform: skewX(0) translateX(-50%);
+    -moz-transform: skewX(0) translateX(-50%);
+    -ms-transform: skewX(0) translateX(-50%);
+    -o-transform: skewX(0) translateX(-50%);
+    animation: none;
+  }
+
+  .venobox_btn {
+    margin-top: 188px !important;
+  }
+
+  .sot_title h2 {
+    padding-top: 95px;
+  }
+
+
+  .md_left p {
+    padding-right: 30px;
+  }
+
+
+
+  .sale_head h2::after {
+    opacity: 0;
+  }
+
+  .catalog_text {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .slider ul {
+    left: 30% !important;
+  }
+
+  .faq_item {
+    padding-right: 0;
+  }
+
+  .faq_item.for_Padding {
+    padding-left: 0;
+  }
+
+
+  .subs_left {
+    text-align: center;
+  }
+
+  .subs_right {
+    margin: 0 auto 20px auto;
+  }
+
+
+
+  .footer_one {
+    text-align: center;
+  }
+
+
+  .f_list {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .f_gal {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .f_gal h2 {
+    padding-bottom: 40px;
+  }
+
+  .commu_head,
+  .game_head,
+  .stream_head,
+  .sale_head,
+  .acce_head,
+  .team_head,
+  .faq_head {
+    text-align: center;
+  }
+
+  .commu_head h2::after,
+  .game_head h2::after,
+  .stream_head h2::after,
+  .sale_head h2::after,
+  .acce_head h2::after,
+  .team_head h2::after,
+  .faq_head h2::after {
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .commu_head h2::after {
+    right: -25%;
+  }
+
+  .game_head h2::after {
+    left: -40%;
+  }
+
+
+  .stream_head h2::after {
+    right: -40%;
+  }
+
+  .stream_ol_text .venobox_btn {
+    margin-top: 10px;
+  }
+
+
+  .faq_head h2::after {
+    right: 30%;
+  }
+
+  .acce_head h2::after {
+    right: -25%;
+  }
+
+  .sale_head h2::after {
+    left: -5%;
+  }
+
+
+  .slider ul {
+    left: 70% !important;
+}
+
+
+
+
+
+
+
+
+
+
+}

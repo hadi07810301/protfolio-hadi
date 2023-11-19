@@ -1,0 +1,93 @@
+#footer {
+  background-color: #191919;
+  padding-top: 34px;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+
+
+.footer_one p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  color: #666666;
+  padding-top: 18px;
+}
+.fone_icon{
+  margin-top: 55px;
+}
+.fone_icon i{
+  height: 50px;
+  width: 50px;
+  background-color: #212529;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 2px;
+  color: white;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.fone_icon i:hover{
+  background-color: #FF4655;
+  transform: scale(1.1) translateY(-5px);
+  -webkit-transform: scale(1.1) translateY(-5px);
+  -moz-transform: scale(1.1) translateY(-5px);
+  -ms-transform: scale(1.1) translateY(-5px);
+  -o-transform: scale(1.1) translateY(-5px);
+}
+
+.f_list h2{
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 18px;
+}
+.f_list ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  color: #666666;
+  padding-bottom: 17px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.f_list ul li a:hover{
+  color: #FF4655;
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
+
+.f_gal h2{
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 18px;
+}
+
+.f_gal img{
+  width: 30% !important;
+  margin-bottom: 5px;
+}

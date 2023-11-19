@@ -1,0 +1,75 @@
+#clients {
+    padding: 125px 0;
+    background-color: #F4F6FC;
+    .clients_text {
+        h3 {
+            font-weight: 600;
+            font-size: 38px;
+            padding-bottom: 25px;
+            color: black;
+        }
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            color: black;
+        }
+    }
+    .clint_slick_main {
+        .cllint_slick_iteam{
+            .slick_text {
+                h4 {
+                    color: #282938;
+                    font-weight: 500;
+                    font-size: 32px;
+                    padding-bottom: 90px;
+                }
+                .slick_img {
+                    img {
+                        height: 50px;
+                        width: 52px;
+                        border-radius: 30px;
+                        border: 2px solid transparent;
+                        margin-right: 10px;
+                    }
+                    .slick_img_text {
+                        h5 {
+                            font-weight: 500;
+                            font-size: 18px;
+                        }
+                        p {
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                    }
+                    .clint_slick_icone {
+                        text-align: right;
+                        margin-left: 375px;
+                        border-radius: 50%;
+
+
+                       li {
+                          height: 48px;
+                          width: 48px;
+                          margin-left: 10px;
+                          background-color: white;
+                          border-radius: 50%;
+                          display: inline-flex;
+                          justify-content: center;
+                          align-items: center;
+                          cursor: pointer;
+                          transition: all linear 0.5s;
+                          &:hover {
+                            background-color: #5239FA;
+                        }
+                        i {
+                            font-size: 25px;  
+                            color: black;
+                       }
+                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
